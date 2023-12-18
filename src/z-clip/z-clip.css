@@ -1,0 +1,53 @@
+.zback{
+    display: grid;
+    place-items: center;
+    background-color: #060D0D;
+    color: white;
+}
+
+.zback h2{
+    margin: 3rem 0 0.5rem 0;
+    font-size: 3rem;
+}
+
+.zback h3{
+    font-size: 2rem;
+    margin: 4rem 0 2rem 0;
+}
+
+.zback h4{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.zback p{
+    margin:1rem;
+}
+
+.zback iframe{
+    height: 30rem;
+    width: 50rem;
+}
+
+.zback hr{
+    border-color: red;
+    width: 30rem;
+    margin: 3rem;
+}
+
+.mor{
+    display: grid;
+    place-items: center;
+}
+
+.mor button{
+    padding: 0.3rem 1.5rem;
+    
+}
+
+.mor iframe{
+    height: 20rem;
+    width: 40rem;
+    margin: 5rem 0 2rem 0;
+}

@@ -1,0 +1,89 @@
+.Back{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 75rem;
+    min-height:40rem;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.welc{
+    -webkit-backdrop-filter: blur(80px);
+    backdrop-filter: blur(80px);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.us{
+    color: white;
+    background-color: #bd1a175a;
+    border: solid white;
+}
+
+.uk{
+    color: white;
+    background-color: #bd1a175a;
+    border: solid rgb(8, 8, 78);
+}
+
+.ger{
+    background-color: rgba(0, 0, 0, 0.176);
+    color: white;
+    border: solid red;
+}
+
+.fr{
+    background-color: rgba(0, 0, 139, 0.415);
+    color: white;
+    border: solid red;
+}
+
+.sp{
+    background-color: rgba(139, 0, 0, 0.415);
+    color: white;
+    border: solid rgba(255, 255, 0, 0.638);
+}
+
+.pt{
+    background-color: rgba(139, 0, 0, 0.415);
+    color: white;
+    border: solid rgb(40, 186, 40);
+}
+
+.it{
+    background-color: rgba(255, 255, 255, 0.422);
+    color: darkRed;
+    border: solid green;
+}
+
+.nt{
+    background-color: rgba(19, 36, 84, 0.137);
+    border:solid red;
+    color: white;
+}
+
+.welc h1{
+    font-size: 6rem;
+}
+
+.welc h2{
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.welc h3{
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 800px) {
+    .Back {
+      max-height: 80rem;
+      min-height: 75rem;
+    }
+}
+
+  
